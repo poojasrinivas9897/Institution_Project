@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> RJ Technologies</title>
+    <link rel="icon" href="graduation_icon.png" type="image/x-icon">
+    <style>
+        .c1 {
+            background-color: rgb(6, 6, 15);
+            color: white;
+            justify-content: space-evenly;
+            display: flex;
+            padding-right: 900px;
+            height: 60px;
+        }
+
+        #heading {
+            background-color: #4fb592;
+            margin-top: -20px;
+            padding: 28px;
+        }
+
+        h5 {
+            margin-top: 12px;
+        }
+
+        .h5:hover {
+            color: red;
+
+        }
+
+        ul,
+        li {
+            display: inline;
+            list-style: none;
+            padding: 30px;
+        }
+
+        ul,
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            font-weight: normal;
+            font-size: 20px;
+        }
+
+        .headlist li:hover {
+            background-color: white;
+        }
+
+        .headlist a:hover {
+            color: red;
+        }
+
+        #banner {
+            height: 400px;
+            width: 100%;
+            animation: pics 10s infinite;
+            background-image: url(Coaching4.jpg);
+            background-size: cover;
+
+        }
+
+        @keyframes pics {
+            15% {
+                background-image: url(Coaching2.jpg);
+            }
+
+            40% {
+                background-image: url(Coaching3.jpg);
+            }
+
+            60% {
+                background-image: url(Coaching4.jpg);
+            }
+
+            78% {
+                background-image: url(Coaching0.jpg);
+            }
+
+            89% {
+                background-image: url(Coaching5.jpg);
+            }
+
+            95% {
+                background-image: url(Coaching1.jpg);
+            }
+        }
+
+        aside {
+            padding: 10px;
+            margin-right: 560px;
+            margin-left: 80px;
+            color: white;
+        }
+
+        .app_online {
+            background-color: rgba(7, 223, 104, 0.986);
+            height: 40px;
+            width: 135px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+
+        .app_online:hover {
+            color: red;
+        }
+
+        .icons {
+            text-align: end;
+            margin-top: -50px;
+        }
+
+        .hide {
+            display: none;
+            position: relative;
+            top: -505px;
+            right: -470px;
+            display: grid;
+            grid-template-columns: auto;
+            grid-column-gap: 34px;
+        }
+
+        .hovereffect:hover .hide {
+            display: block;
+        }
+
+        .enquiry {
+            background-color: rgba(7, 223, 104, 0.986);
+            height: 40px;
+            width: 135px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            margin-left: 120px;
+        }
+
+        .faculty {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 10px;
+            color: white;
+            margin-top: 40px;
+
+        }
+
+        .expert {
+            background-color: rgba(6, 143, 68, 0.986);
+            text-align: center;
+            border: 0px solid green;
+            border-radius: 5%;
+            height: 200px;
+        }
+
+        .expert:hover {
+            background-color: white;
+            color: black;
+            box-shadow: 10px 10px 5px lightblue;
+        }
+
+        .well {
+            background-color: rgba(6, 143, 68, 0.986);
+            text-align: center;
+            border: 0px solid green;
+            border-radius: 5%;
+            height: 200px;
+        }
+
+        .well:hover {
+            background-color: white;
+            color: black;
+            box-shadow: 10px 10px 5px lightblue;
+        }
+
+        .qlty {
+            background-color: rgba(6, 143, 68, 0.986);
+            text-align: center;
+            border: 0px solid green;
+            border-radius: 5%;
+            height: 200px;
+        }
+
+        .qlty:hover {
+            background-color: white;
+            color: black;
+            box-shadow: 10px 10px 5px lightblue;
+        }
+
+        .access {
+            background-color: rgba(6, 143, 68, 0.986);
+            text-align: center;
+            border: 0px solid green;
+            border-radius: 5%;
+            height: 200px;
+        }
+
+        .access:hover {
+            background-color: white;
+            color: black;
+            box-shadow: 10px 10px 5px lightblue;
+        }
+
+        .fullstack {
+            border: 1px solid white;
+            box-shadow: 2px 5px 6px 1px lightseagreen;
+        }
+
+        .app_online1 {
+            background-color: rgba(4, 119, 38, 0.979);
+            height: 40px;
+            width: 135px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            margin-top: 75px;
+            position: relative;
+            top: -20px;
+        }
+
+        .app_online1:hover {
+            color: red;
+        }
+
+        .app_online1:active {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .courses {
+            display: grid;
+            grid-gap: 50px;
+            grid-template-columns: auto auto auto;
+            margin: 60px;
+            row-gap: 95px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: -45px;
+            height: 30px;
+            padding-top: 15px;
+            background-color: rgba(6, 143, 68, 0.986);
+            color: white;
+            font-weight: normal;
+        }
+
+        .footer {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin-top: 100px;
+            background-color: rgb(169, 245, 218);
+            grid-gap: 70px;
+            padding: 30px;
+            margin: -10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Marquee-->
+    <div>
+        <marquee style="background-color: chocolate; height: 20px; font-weight: normal;" behavior="alternate"> Our Best
+            offer Ever!!! Rainy Special - Get 3 Courses at 22222/- only <a href=""
+                style="text-decoration: underline;color: rgb(14, 14, 143);">Read More</a></a></marquee>
+    </div>
+
+    <!--Mail and Contact-->
+    <div class="c1">
+        <div class="h5">
+            <h5>Email: rjtech@gmail.com</h5>
+        </div>
+        <div class="h5">
+            <h5>Contact :+91-8756815457</h5>
+        </div>
+    </div>
+
+    <!--Icons-->
+    <div style="height: 50px;">
+        <ol class="icons">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank"><img src="facebook_icon.png" height="20px">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank"><img src="twitter_icon.png" height="20px">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank"><img src="insta_icon.png" height="20px">
+                </a>
+            </li>
+
+
+            <li>
+                <a href="https://www.linkedin.com/login" target="_blank"><img src="linkedin_icon.png" height="20px">
+                </a>
+            </li>
+        </ol>
+    </div>
+
+
+    <!--Banner-->
+    <div id="heading">
+        <label style="font-size: 28px;color: green;width: 20px;"><img src="graduation_icon.png" height="35px"
+                width="45px">RJ Technology</label>
+        <ul class="headlist">
+
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li class="hovereffect">
+                <a href="">Courses</a>
+                <!--<ul class="hide">
+                    <li>Front End</li>
+                    <li style="top: -40px;
+                    position: relative;">Back End</li>
+                </ul>-->
+
+            </li>
+            <li>
+                <a href="">Online Training</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+        <button class="enquiry">Enquiry</button>
+    </div>
+
+    <!--Banner Images-->
+    <div id="banner">
+        <aside>
+            <h1 style="font-size: 40px;">RJ Technologies</h1>
+            <h3 style="margin-top: -25px;">Best Online & Classroom Training Institute</h3>
+            <p style="margin-top: 35px;"> RJ Technologies is the world’s ace software training organization with an aim
+                to bridge the gap between
+                the demands of the industry and the curriculum of educational institutions. With centers across the
+                Globe, the institute is a platform where young minds are given the opportunity to build successful
+                careers.</p>
+            <button class="app_online">Apply Online</button>
+        </aside>
+    </div>
+
+
+    <!--Front and Back End Courses-->
+    
+
+    <!--Key Features-->
+    <div style="padding: 30px;">
+        <h3 style="text-align: center;font-size: 30px;">Key Features</h3>
+        <p style="text-align: center;margin-left: 20px;">We have the most complete range of software training courses
+            needed by the professionals around the world.Please do contact us for any queries related to the courses.It
+            is a place where businesses find talent and dreams take flight.</p>
+    </div>
+
+
+    <!--Circle Icons-->
+    <div>
+        <div style="display: flex;justify-content: space-between;margin-top: -50px;">
+            <div style="margin-left: 125px;">
+                <img src="faculty1.png" height="30px" width="30px" style="border: 1px solid black;
+            padding: 20px;
+            background-color: ghostwhite;
+            border-radius: 50%;border-radius: 50%;
+            position: absolute;
+            top: 795px;">
+            </div>
+            <div style="margin-left: -15px;">
+                <img src="faculty2.png" height="30px" width="30px" style="border: 1px solid black;
+            padding: 20px;
+            background-color: ghostwhite;
+            border-radius: 50%;position: absolute;
+            top: 795px;
+            left: 475px;">
+            </div>
+            <div style="margin-right: 30px;">
+                <img src="faculty3.png" height="30px" width="30px" style="border: 1px solid black;
+            padding: 20px;
+            background-color: ghostwhite;
+            border-radius: 50%;position: absolute;
+            top: 795px;
+            left: 800px;">
+            </div>
+            <div style="margin-right: 115px;">
+                <img src="faculty4.png" height="30px" width="30px" style="border: 1px solid black;
+            padding: 20px;
+            background-color: ghostwhite;
+            border-radius: 50%;position: relative;
+            top: 60px;
+            right: 20px;">
+            </div>
+        </div>
+
+
+        <!--Expert Faculty-->
+        <div class="faculty">
+            <div class="expert">
+                <h3>Expert Faculty</h3>
+                <p>Training Center in the World and also the Largest.Students have been Placed, and still counting!</p>
+            </div>
+            <div class="well">
+                <h3>Well Equiped Labs</h3>
+                <p>Multinational companies hire from us, and the list is still growing.Students attend interviews every
+                    day across companies.</p>
+            </div>
+            <div class="qlty">
+                <h3>Quality Education</h3>
+                <p>Companies conduct interviews every working day.Students get placed in a Month across the Globe.</p>
+            </div>
+            <div class="access">
+                <h3>24 * 7 Access</h3>
+                <p>Students attend interviews every day across companies.Students have been Placed, and still counting!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Courses-->
+    <div style="padding: 30px;margin-top: 65px;">
+        <h1 style="text-align: center;font-size: 30px;">Our Courses</h1>
+        <p style="text-align: center;margin-left: 20px;">You can start your career in IT industry with basic and advance
+            skills. Course will be trained by top industry experts who have passion to train students and help them get
+            job in IT industry or excel in IT industry.</p>
+    </div>
+
+    <div class="courses">
+        <div class="fullstack">
+            <h2>Full Stack Development</h2>
+            <h4 class="border">You can start your career in IT industry with basic and advance skills.</h4>
+            <img src="star_icon.jpg" width="120px">
+            <p class="border">Java Full Stack course is more of job-oriented training which is designed as per current
+                industry standards. You can start your career in IT industry with basic and advance skills.</p>
+            <a href="./Task_04_07_23_Courses_form.html"><button class="app_online1">Apply Online</button></a>
+        </div>
+        <div class="fullstack">
+            <h2>J2EE</h2>
+            <h4>You can start your career in IT industry with basic and advance skills.</h4>
+            <img src="star_icon.jpg" width="120px">
+            <p>J2EE course is more of job-oriented training which is designed as per current industry standards. You can
+                start your career in IT industry with basic excel and advance skills.</p>
+            <a href="./Task_04_07_23_Courses_form.html"><button class="app_online1">Apply Online</button></a>
+        </div>
+        <div class="fullstack">
+            <h2>MEAN Stack</h2>
+            <h4>You can start your career in IT industry with basic and advance skills.</h4>
+            <img src="star_icon.jpg" width="120px">
+            <p>You will be ready to develop web application, mobile application & automation testing, Web designing and
+                full-fledged application developing by end of this training.</p>
+            <a href="./Task_04_07_23_Courses_form.html"><button class="app_online1">Apply Online</button></a>
+        </div>
+        <div class="fullstack">
+            <h2>MERN Stack</h2>
+            <h4>You can start your career in IT industry with basic and advance skills.</h4>
+            <img src="star_icon.jpg" width="120px">
+            <p>Front and Back-end JavaScript technologies of the most popular MEAN (Mongo DB, Express, Angular and
+                Node.js) Stack or MERN (Mongo DB, Express, React and Node.js) Stack.</p>
+            <a href="./Task_04_07_23_Courses_form.html"><button class="app_online1">Apply Online</button></a>
+        </div>
+        <div class="fullstack">
+            <h2>Android Development</h2>
+            <h4>You can start your career in IT industry with basic and advance skills.</h4>
+            <img src="star_icon.jpg" width="120px">
+            <p>You will be able to write simple GUI applications, use built-in widgets and components, work with the
+                database to store data locally, and much more by the end of this Android training course.</p>
+            <a href="./Task_04_07_23_Courses_form.html"><button class="app_online1">Apply Online</button></a>
+        </div>
+        <div class="fullstack">
+            <h2>Core Java and Selenium</h2>
+            <h4>You can start your career in IT industry with basic and advance skills.</h4>
+            <img src="star_icon.jpg" width="120px">
+            <p>This course is designed for all manual testers who wants to upgrade their skills to automation. Course
+                will be trained by top industry experts who have passion to train students and help then upgrade their
+                skills level.</p>
+            <a href="./Task_04_07_23_Courses_form.html"><button class="app_online1">Apply Online</button></a>
+        </div>
+        <div class="fullstack">
+            <h2>Software Testing</h2>
+            <h4>You can start your career in IT industry with basic and advance skills.</h4>
+            <img src="star_icon.jpg" width="120px">
+            <p>Software testing course is more of job oriented training which is designed as per current industry
+                standards. You can start IT industry with basic and advance skills. Course will be trained by top
+                industry experts who have passion to train students.</p>
+            <a href="./Task_04_07_23_Courses_form.html"><button class="app_online1">Apply Online</button></a>
+        </div>
+        <div class="fullstack">
+            <h2>Python - Selenium</h2>
+            <h4>You can start your career in IT industry with basic and advance skills.</h4>
+            <img src="star_icon.jpg" width="120px">
+            <p>This course is designed for all manual testers who wants to upgrade their skills to automation. Course
+                will be trained by top industry experts who have passion to train students and help then upgrade their
+                skills level.We help them get job in IT industry or excel in IT industry.</p>
+            <a href="./Task_04_07_23_Courses_form.html"><button class="app_online1">Apply Online</button></a>
+        </div>
+        <div class="fullstack">
+            <h2>API Testing</h2>
+            <h4>You can start your career in IT industry with basic and advance skills.</h4>
+            <img src="star_icon.jpg" width="120px">
+            <p>API testing course designed for those who are interested in API testing and want to learn more about
+                middle ware testing. This also gives different types of testing methodologies with respect to API
+                testing with different types of API’s.We help them get job in IT industry.</p>
+            <a href="./Task_04_07_23_Courses_form.html"><button class="app_online1">Apply Online</button></a>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div style="margin-left: 15px; margin-top: -35px;">
+            <img src="graduationblack_icon.png" height="50px" width="50px" style="    top: 18px;
+            position: relative;
+            left: 5px;"><label style="font-size: 20px; font-weight: bold;word-spacing: 5px; ">RJ Technology</label>
+            <p>RJ Technologies is the world’s ace software training organization with an aim to bridge the gap between
+                the demands of the industry and the curriculum of educational institutions. With centers across the
+                Globe, the institute is a platform where young minds are given the opportunity to build successful
+                careers.</p>
+        </div>
+        <div>
+            <label style="font-size: 20px; font-weight: bold;word-spacing: 5px;">Our Servies</label>
+            <p>Mobile Applications Designs</p>
+            <p>Web Applications Designs</p>
+            <p>Websites Designs</p>
+            <p>Web User Interface Designs</p>
+            <p>Web UX Designs</p>
+            <p>Web UX Research</p>
+        </div>
+        <div>
+            <label style="font-size: 20px; font-weight: bold;word-spacing: 5px;">Head Office</label><br>
+            <p>
+
+                43/2, 2nd Floor, <br>
+                VMR Arcade, Silver Springs Layout, <br>
+                Munnekollal Varthur Main Road, <br>
+                Near kundalahalli gate signal, <br>
+                Marathahalli, Bengaluru, <br>
+                Karnataka 560037
+            </p>
+
+            <label style="font-size: 15px; font-weight: bold;">Office Time:</label> 10AM - 6PM
+        </div>
+        <div>
+            <label style="font-size: 20px; font-weight: bold;word-spacing: 5px;">Subscribe Us </label><br>
+
+            <input type="email" style="height: 25px;
+            width: 185px;" placeholder="rjtechnology@gmail.com">
+
+            <a href="https://accounts.google.com/" target="_blank"><img src="sendbutton_icon.png" height="17px"
+                    width="17px" style="border: 1px solid green;
+            padding: 8px;
+            border-radius: 5px;
+            background-color: rgba(6, 143, 68, 0.986);position: relative;
+            top: 10px;"></a><br><br>
+
+            <a href="https://www.facebook.com/" target="_blank"><img src="facebookblack_icon.png" height="17px"
+                    width="17px" style="border: 1px solid green;
+            padding: 8px;
+            border-radius: 5px;
+            background-color: rgba(6, 143, 68, 0.986);"></a>
+
+            <a href="https://www.twitter.com/" target="_blank"><img src="twitterblack_icon.png" height="17px"
+                    width="17px" style="border: 1px solid green;
+            padding: 8px;
+            border-radius: 5px;
+            background-color: rgba(6, 143, 68, 0.986);margin-left: 1px;"></a>
+
+            <a href="https://www.instagram.com/" target="_blank"><img src="instablack_icon.png" height="17px"
+                    width="17px" style="border: 1px solid green;
+            padding: 8px;
+            border-radius: 5px;
+            background-color: rgba(6, 143, 68, 0.986);"></a>
+
+            <a href="https://www.linkedin.com/login" target="_blank"><img src="linkedinblack_icon.webp" height="17px"
+                    width="17px" style="border: 1px solid green;
+            padding: 8px;
+            border-radius: 5px;
+            background-color: rgba(6, 143, 68, 0.986);"></a>
+        </div>
+    </div>
+
+</body>
+
+</html>

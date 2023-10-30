@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Form</title>
+    <style>
+        .account {
+            display: flex;
+        }
+
+        .rj {
+            width: 500px;
+            background-image: linear-gradient(45deg, #577a74, #e56c989c);
+            height: 610px;
+            margin-left: -8px;
+            padding: 10px;
+            margin-top: -10px;
+            text-align: center;
+            color: white;
+        }
+        .firstname{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 95px;
+        }
+        .mobile{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-column-gap: 95px;
+        }
+        .password{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-column-gap: 95px;
+        }
+        input[type=text]:active, input[type=text]:focus {
+            background-color: #cce6ef;
+        }
+        input[type=email]:active, input[type=email]:focus {
+            background-color: #cce6ef;
+        }
+        input[type=password]:active, input[type=password]:focus {
+            background-color: #cce6ef;
+        }
+        .reset:hover{
+            background-color: rgb(14, 17, 49);
+             color: white;
+        }
+        .submit:hover{
+             background-color: rgb(14, 17, 49);
+             color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="account">
+        <div class="rj">
+
+            <h3 style="position: relative;
+            top: 160px;
+            left: -40px;font-size: 30px;">RJ</h3>
+
+            <h4 style="position: relative;
+            top: 125px;font-size: 25px;font-weight: normal;">Technology</h4>
+
+            <h1 style="position: relative;
+            top: 150px;font-size: 45px;">H.VERVE</h1>
+
+            <h5 style="position: relative;
+            top: 120px;font-size: 18px;">Inspired Applications</h5>
+
+            <label style="position: relative;
+            top: 130px;
+            right: -70px;">To connect with us</label>
+            <label style="    position: relative;
+            top: 155px;
+            left: -65px;">please enter the details</label>
+        </div>
+        <div style="margin: 40px; margin-top: 0px;">
+            <h2>Create an Account</h2>
+            <br><br>
+            <aside class="firstname">
+                <label>First Name</label>
+                <label>Last Name</label>
+                <label>Age</label>
+                <input type="text" class="input" placeholder="First Name" style="height: 20px;border: 1px solid #b1a9a9;width: 175px;box-shadow: 6px 10px 15px lightgray;" required>
+                <input type="text" placeholder="Last Name" style="border: 1px solid #b1a9a9;width: 175px;box-shadow: 6px 10px 15px lightgray;" required>
+                <input type="text" placeholder="18-100" style="border: 1px solid #b1a9a9;width: 175px;box-shadow: 6px 10px 15px lightgray;" required>
+                <br><br>
+            </aside>
+            <aside class="mobile">
+                <label>Mobile Number</label>
+                <label>Email</label>
+                <input type="text" placeholder="** **" style="height: 20px;box-shadow: 6px 10px 15px lightgray;border: 1px solid #b1a9a9;" required >
+                <input type="email" placeholder="abc@xxx.zzz" style="box-shadow: 6px 10px 15px lightgray;border: 1px solid #b1a9a9;" required>
+                <br><br>
+            </aside>
+            <label>Description</label><br>
+            <textarea placeholder="emailhc@gmail.com" style="height: 115px;
+            width: 730px;font-weight: normal;background-color: #cce6ef;box-shadow: 6px 10px 15px lightgray;border: 1px solid #b1a9a9;" required></textarea> 
+            <p style="text-align: end;margin-top: 0px;">Max.150 characters</p>
+            <br>
+            <aside class="password">
+                <label>Password</label>
+                <label>Confirm Password</label>
+                <input type="password" style="height: 20px;box-shadow: 6px 10px 15px lightgray;border: 1px solid #b1a9a9;" required>
+                <input type="password" style="box-shadow: 6px 10px 15px lightgray;border: 1px solid #b1a9a9;" required>
+                <br><br><br>
+            </aside>
+            <aside class="buttons">
+                <button type="reset" class="reset" style="padding: 8px;border: 1px solid black;border-radius: 15px;width: 120px;position: relative;left: 220px;">Reset</button>
+                <button type="submit" class="submit" style="padding: 8px;border: 1px solid black;border-radius: 15px;width: 120px;position: relative;left: 295px;">Submit</button>
+            </aside>
+        </div>
+    </form>
+
+</body>
+
+</html>
